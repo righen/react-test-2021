@@ -26,6 +26,9 @@ const Create = () => {
           firstName: "",
           surname: "",
           email: "",
+          age: "",
+          status: "",
+          jobTitle: "",
         }}
       >
         <Flex alignItems="center" justifyContent="center" height="100%">
@@ -33,6 +36,9 @@ const Create = () => {
             <FormField name="firstName" placeholder="First name" />
             <FormField name="surname" placeholder="Surname" />
             <FormField name="email" placeholder="Email" />
+            <FormField name="age" placeholder="Age" />
+            <FormField name="status" placeholder="Status" />
+            <FormField name="jobTitle" placeholder="Job title" />
             <FormButtons />
           </Flex>
         </Flex>

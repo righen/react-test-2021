@@ -17,6 +17,7 @@ const formValidationSchema = yup.object().shape({
     .max(255, "The maximum number of characters is 255")
     .email("Invalid email address")
     .required("Required"),
+  age: yup.number().required("Please supply your age"),
 });
 
 export default formValidationSchema;
